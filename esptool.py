@@ -40,8 +40,8 @@ class ESPROM:
     ESP_READ_REG    = 0x0a
 
     # Maximum block sized for RAM and Flash writes, respectively.
-    ESP_RAM_BLOCK   = 0x1800
-    ESP_FLASH_BLOCK = 0x400
+    ESP_RAM_BLOCK   = 0x180
+    ESP_FLASH_BLOCK = 0x40
 
     # Default baudrate. The ROM auto-bauds, so we can use more or less whatever we want.
     ESP_ROM_BAUD    = 115200
